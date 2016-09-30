@@ -1,0 +1,30 @@
+object Form1: TForm1
+  Left = 403
+  Height = 330
+  Top = 194
+  Width = 382
+  Caption = 'Grid ::: StringGrid'
+  ClientHeight = 330
+  ClientWidth = 382
+  Position = poScreenCenter
+  LCLVersion = '1.6.0.4'
+  object Button1: TButton
+    Left = 16
+    Height = 25
+    Top = 8
+    Width = 352
+    Caption = 'Preencher grid'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object StringGrid1: TStringGrid
+    Left = 16
+    Height = 270
+    Top = 48
+    Width = 352
+    FixedCols = 0
+    FixedRows = 0
+    RowCount = 20
+    TabOrder = 1
+  end
+end
